@@ -115,4 +115,4 @@ class CupSwapperScene(Scene):
 
         self.wait(1)
 
-# python -m manim -pql scene.py CupSwapperScene
+# python -m manim scene.py CupSwapperScene -q h
