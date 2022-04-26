@@ -28,7 +28,7 @@ class CupSwapperScene(Scene):
         textC = MarkupText("Cup C",font_size=32,color=WHITE)
         textC.next_to(cupC,UP,buff=0.5)
 
-        self.play( Create(titleText) )
+        self.play( Write(titleText) )
 
         self.play( Create(textA),Create(textB),Create(textC) )
 
